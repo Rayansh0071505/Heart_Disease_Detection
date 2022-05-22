@@ -10,27 +10,27 @@ In a statement,
 
 <h5><li>age - age in years
     
-sex - (1 = male; 0 = female)
+<li>sex - (1 = male; 0 = female)
     
-cp - chest pain type
+<li>cp - chest pain type
     
         0: Typical angina: chest pain related decrease blood supply to the heart
         1: Atypical angina: chest pain not related to heart
         2: Non-anginal pain: typically esophageal spasms (non heart related)
         3: Asymptomatic: chest pain not showing signs of disease
     
-trestbps - resting blood pressure (in mm Hg on admission to the hospital) anything above 130-140 is typically cause for concern
+<li>trestbps - resting blood pressure (in mm Hg on admission to the hospital) anything above 130-140 is typically cause for concern
     
-chol - serum cholestoral in mg/dl
+<li>chol - serum cholestoral in mg/dl
     
-serum = LDL + HDL + .2 * triglycerides
+        <li>serum = LDL + HDL + .2 * triglycerides
+
+        <li>above 200 is cause for concern
     
-above 200 is cause for concern
+<li>fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
     
-fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-    
-    '>126' mg/dL signals diabetes
-restecg - resting electrocardiographic results
+    <li>'>126' mg/dL signals diabetes
+<li>restecg - resting electrocardiographic results
     
     0: Nothing to note
     1: ST-T Wave abnormality
@@ -39,26 +39,26 @@ restecg - resting electrocardiographic results
     2: Possible or definite left ventricular hypertrophy
         Enlarged heart's main pumping chamber
     
-thalach - maximum heart rate achieved
+<li>thalach - maximum heart rate achieved
     
-exang - exercise induced angina (1 = yes; 0 = no)
+<li>exang - exercise induced angina (1 = yes; 0 = no)
     
-oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more
+<li>oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more
     
-slope - the slope of the peak exercise ST segment
+<li>slope - the slope of the peak exercise ST segment
     
     0: Upsloping: better heart rate with excercise (uncommon)
     1: Flatsloping: minimal change (typical healthy heart)
     2: Downslopins: signs of unhealthy heart
     
-ca - number of major vessels (0-3) colored by flourosopy
+<li>ca - number of major vessels (0-3) colored by flourosopy
     
-        colored vessel means the doctor can see the blood passing through
-        the more blood movement the better (no clots)
-thal - thalium stress result
+       <li> colored vessel means the doctor can see the blood passing through
+       <li> the more blood movement the better (no clots)
+<li>thal - thalium stress result
     
-        1,3: normal
-        6: fixed defect: used to be defect but ok now
-        7: reversable defect: no proper blood movement when excercising
+       <li> 1,3: normal
+       <li> 6: fixed defect: used to be defect but ok now
+        <li>7: reversable defect: no proper blood movement when excercising
     
-target - have disease or not (1=yes, 0=no) (= the predicted attribute)
+<li>target - have disease or not (1=yes, 0=no) (= the predicted attribute)
