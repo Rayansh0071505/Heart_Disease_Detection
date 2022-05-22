@@ -8,7 +8,7 @@ In a statement,
 <h2>Data dictionary
 
 
- age - age in years
+<h5>age - age in years
     
 sex - (1 = male; 0 = female)
     
